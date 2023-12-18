@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Karla:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/68006bc5a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-code"></i>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Intro -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Michael Loughman</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Web Developer</p>
+        <img src="img/small_profile.jpg" class="intro__img" alt="picture of Michael Loughman">
+    </section>
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="https://quizzical-michaelloughman.netlify.app/" class="portfolio__item">
+                <img src="2023-12-18-10-09-55.png" alt="Quizzical Home Page" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="https://mern-hike-michaelloughman.netlify.app/" class="portfolio__item">
+                <img src="2023-12-18-10-14-41.png" alt="Hikes Home Page" class="portfolio__img">
+
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="https://simple-color-schemes.netlify.app/" class="portfolio__item">
+                <img src="2023-12-18-10-35-17.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="https://scrimba-hike-finder.netlify.app/" class="portfolio__item">
+                <img src="2023-12-18-10-33-10.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="https://menu-ordering-michaelloughman.netlify.app/" class="portfolio__item">
+                <img src="2023-12-18-10-39-06.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 06 -->
+            <a href="https://memory-game-michaelloughman.netlify.app/" class="portfolio__item">
+                <img src="2023-12-18-10-42-55.png" alt="" class="portfolio__img">
+            </a>
+
+
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Designer and Developer in Las Vegas</p>
+
+        <div class="about-me__body">
+            <p>I am a twenty year resident of Las Vegas, NV. I worked most of those years for Caesars Entertainment as
+                both a blackjack and poker dealer. I grew to love the outdoor life that the area has to offer. If I'm
+                not studying or working on coding projects, I most likely will be out hiking or bird watching.</p>
+
+        </div>
+
+        <img src="img/vegas.jpg" class="about-me__img" alt="Jane leaning against a bus">
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:hello@jane.dev" class="footer__link">mcloughman@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link"
+                    href="https://www.linkedin.com/in/michael-c-loughman/   "><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/mcloughman"><i
+                        class="fa-brands fa-github"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link"
+                    href="ttps://www.facebook.com/michael.loughman.372"><i class="fa-brands fa-square-facebook"></i></a>
+            </li>
+
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
